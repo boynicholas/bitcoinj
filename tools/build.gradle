@@ -6,8 +6,8 @@ plugins {
 
 dependencies {
     implementation project(':bitcoinj-core')
-    implementation 'net.sf.jopt-simple:jopt-simple:5.0.4'
-    implementation 'org.slf4j:slf4j-jdk14:1.7.30'
+    implementation 'info.picocli:picocli:4.6.1'
+    implementation 'org.slf4j:slf4j-jdk14:1.7.32'
 }
 
 sourceCompatibility = 1.8
